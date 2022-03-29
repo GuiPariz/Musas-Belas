@@ -1,0 +1,22 @@
+.title-aboutus {
+    font-family: 'Pacifico', cursive;
+}
+
+.img-aboutus {
+    box-shadow: 0px 0px 5px 2px #bcbcbc;
+}
+
+.link-aboutus {
+    color: #5B151D;
+    font-size: 1.6em;
+}
+
+.link-aboutus:hover {
+    color: inherit;
+    cursor: pointer;
+}
+
+.feedback-icon {
+    font-size: 10em;
+    margin-bottom: 20px;
+}
