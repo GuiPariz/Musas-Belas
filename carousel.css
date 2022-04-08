@@ -25,8 +25,12 @@ body {
 /* Since positioning the image, we need to help out the caption */
 
 .carousel-caption {
-    bottom: 8em;
+    white-space: nowrap;
+    margin-left: 4em;
+    font-size: 2em;
+    bottom: 3em;
     z-index: 10;
+    overflow: hidden;
 }
 
 
@@ -44,7 +48,9 @@ body {
     height: 42rem;
 }
 
-
+.text-animated {
+    animation: typing 2.5s normal;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -110,4 +116,13 @@ body {
     .featurette-heading {
         margin-top: 3.5rem;
     }
+}
+
+@keyframes typing {
+from{
+    width: 10em;
+} 
+to{
+    width:18.2em;
+}   
 }
