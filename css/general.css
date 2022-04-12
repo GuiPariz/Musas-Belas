@@ -6,3 +6,13 @@ html {
 h1 {
     font-size: 4em;
 }
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5B151D;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}

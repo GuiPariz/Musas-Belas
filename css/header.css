@@ -20,7 +20,7 @@
 }
 
 .overlay {
-    background-color: rgb(79 60 60 / 65%);
+    background-color: rgb(79 60 60 / 55%);
     position: absolute;
     top: 0;
     right: 0;
@@ -38,15 +38,66 @@
     letter-spacing: 0.1px;
 }
 
+.carousel-caption {
+    margin-left: 0px;
+    font-size: 1.20em;
+    bottom: 7em;
+    z-index: 10;
+    overflow: hidden;
+}
+
 .carousel-caption h1 {
-    font-size: 4.14rem;
+    font-size: 2.14rem;
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: 0.1px;
     margin: 0;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .carousel-caption h1 span {
     color: #3F0000;
+}
+
+.text-animated {
+    animation: slidein 2.5s normal;
+}
+
+/* TABLET */
+@media (min-width: 40em) {
+    .carousel-caption {
+        margin-left: 0px;
+        font-size: 2em;
+        bottom: 5em;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3.14rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 62em) {
+    .carousel-caption {
+        margin-left: 9.5em;
+        bottom: 3em;
+    }
+
+    .carousel-caption h1 {
+        font-size: 4.14rem;
+    }
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
