@@ -1,0 +1,28 @@
+{
+  "name": "musas-belas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiPariz/Musas-Belas.git"
+  },
+  "author": "Guilherme Pariz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuiPariz/Musas-Belas/issues"
+  },
+  "homepage": "https://github.com/GuiPariz/Musas-Belas#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
